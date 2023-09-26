@@ -2,7 +2,7 @@ DEFAULT_START_PORT=20000                         #默认起始端口
 DEFAULT_SOCKS_USERNAME="userb"                   #默认socks账号
 DEFAULT_SOCKS_PASSWORD="passwordb"               #默认socks密码
 DEFAULT_WS_PATH="/ws"                            #默认ws路径
-DEFAULT_UUID=$(cat /proc/sys/kernel/random/uuid) #默认随机UUID
+DEFAULT_UUID="835d78dd-b3a6-4299-a58a-4cfbce50008a" #默认随机UUID
 
 IP_ADDRESSES=($(hostname -I))
 
